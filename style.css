@@ -1,0 +1,60 @@
+/* Allgemeine Formatierungen */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Layout-Boxen */
+header, main, footer, section {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+/* Header */
+header {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+/* Hauptbereich */
+main {
+  display: flex;
+  gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  background-color: #e6f0fa;
+  border-radius: 8px;
+}
+
+/* Hauptinhalt */
+.content {
+  flex: 3;
+  background-color: #fff8e1;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+}
